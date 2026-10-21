@@ -1,0 +1,3 @@
+Transaction ID,Sender Account,Receiver Account,Type,Debit,Credit,Balance,Date
+TXNEF7VP885ML,SYSTEM,01002388280,Top-up from SYSTEM,-,2000.00,2000.00,"22/10/2026, 02:06:54"
+TXN2GAA3GLQ2H,01002388280,01700000003,Deposit Commission,500.00,12.50,1512.50,"22/10/2026, 02:10:22"

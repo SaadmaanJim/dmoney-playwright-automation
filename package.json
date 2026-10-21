@@ -1,0 +1,24 @@
+{
+  "name": "dmoney-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "test": "playwright test --project=chromium",
+     "test:regression": "playwright test --project=chromium",
+     "test:headed": "playwright test --project=chromium --headed",
+     "test:smoke": "playwright test --project=chromium --grep \"@smoke\"",
+     "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/mailparser": "^3.9.0",
+    "@types/node": "^26.6.4",
+    "dotenv": "^18.0.6",
+    "imapflow": "^2.3.0",
+    "mailparser": "^3.9.37"
+  }
+}
